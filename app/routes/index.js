@@ -10,6 +10,10 @@ export default Ember.Route.extend({
       newNews.save();
       this.transitionTo('index');
     },
+    destroyNews(news){
+      news.destroyRecord();
+      this.transitionTo('index');
+    },
     save3(params){
       var newRental = this.store.createRecord('rental', params);
       newRental.save();

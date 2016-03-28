@@ -1,0 +1,11 @@
+<h1>Latest News</h1>
+<ul>
+  {{#each model as |news|}}
+  {{news-tile news=news destroyNews="destroyNews"}}
+  {{/each}}
+</ul>
+{{new-news save5="save6"}}
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+{{#link-to 'index'}}Home{{/link-to}}
