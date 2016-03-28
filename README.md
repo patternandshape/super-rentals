@@ -1,7 +1,10 @@
-# Property-rental
+# Property Rental
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an application where property owners may list places for rent, and renters will be able to find places to stay.
+
+March 28, 2016
+
+##### By Molly Curtin &amp; Torrence Stratton
 
 ## Prerequisites
 
@@ -15,39 +18,28 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/patternandshape/property-rental.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
+* `ember install ember-cli-sass`
 
 ## Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+### Technologies Used
 
-Make use of the many generators for code, try `ember help generate` for more details
+* HTML
+* SCSS
+* Ember
+* NPM
+* Node
+* Bower
 
-### Running Tests
+##### License
 
-* `ember test`
-* `ember test --server`
+*This software is licensed under the MIT license.*
 
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+&copy; 2016 **Molly Curtin &amp; Torrence Stratton**
