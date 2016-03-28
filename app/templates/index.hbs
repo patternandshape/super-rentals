@@ -2,6 +2,14 @@
 
 We hope you find exactly what you're looking for in a place to stay.
 
+<h1>Latest News</h1>
+<ul>
+  {{#each model as |news|}}
+  <li>{{news-tile news=news}}</li>
+  {{/each}}
+</ul>
+{{new-news save5="save6"}}
+
 <ul>
   {{#each model as |rental|}}
   {{rental-tile rental=rental destroyRental="destroyRental"}}
