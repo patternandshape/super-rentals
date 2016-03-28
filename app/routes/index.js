@@ -5,15 +5,6 @@ export default Ember.Route.extend({
     return this.store.findAll('rental');
   },
   actions: {
-    save6(params){
-      var newNews = this.store.createRecord('news', params);
-      newNews.save();
-      this.transitionTo('index');
-    },
-    destroyNews(news){
-      news.destroyRecord();
-      this.transitionTo('index');
-    },
     save3(params){
       var newRental = this.store.createRecord('rental', params);
       newRental.save();

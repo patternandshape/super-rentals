@@ -5,5 +5,5 @@ export default DS.Model.extend({
   city: DS.attr(),
   type: DS.attr(),
   image: DS.attr(),
-  bedrooms: DS.attr()
+  bedrooms: DS.attr(),
   });
