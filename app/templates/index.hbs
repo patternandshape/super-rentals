@@ -1,7 +1,9 @@
 <h1>Welcome to Super Rentals</h1>
 
 We hope you find exactly what you're looking for in a place to stay.
-
+<p>
+|| {{#link-to 'news'}}NEWS{{/link-to}} ||
+</p>
 <ul>
   {{#each model as |rental|}}
   {{rental-tile rental=rental destroyRental="destroyRental"}}
@@ -9,7 +11,6 @@ We hope you find exactly what you're looking for in a place to stay.
 </ul>
 
 {{new-rental save2="save3"}}
-
-{{#link-to 'news'}}NEWS{{/link-to}}
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+<br>
+{{#link-to 'about'}}About{{/link-to}} ||
+{{#link-to 'contact'}}Contact{{/link-to}}
