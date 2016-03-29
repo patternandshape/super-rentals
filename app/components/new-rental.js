@@ -3,10 +3,11 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   addNewRental: false,
   actions: {
-    rentalFormShow(){
+    rentalFormShow() {
       this.set('addNewRental', true);
     },
-    save1(){
+
+    save1() {
       var params = {
         owner: this.get('owner'),
         city: this.get('city'),
@@ -14,7 +15,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
         bedrooms: this.get('bedrooms'),
       };
-      this.set('addNewRental', false),
+      this.set('addNewRental', false);
       this.sendAction('save2', params);
     }
   }
