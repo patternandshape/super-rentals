@@ -32,12 +32,13 @@ You will need the following things properly installed on your computer.
 
 ### Technologies Used
 
-* HTML
-* SCSS
 * Ember
 * NPM
 * Node
 * Bower
+* HTML
+* SCSS
+* Bootstrap
 
 ##### License
 
