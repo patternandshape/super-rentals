@@ -4,7 +4,7 @@ This is an application where property owners may list places for rent, and rente
 
 March 28, 2016
 
-##### By Molly Curtin &amp; Torrence Stratton
+##### By Molly Curtin
 
 ## Prerequisites
 
@@ -44,4 +44,4 @@ You will need the following things properly installed on your computer.
 
 *This software is licensed under the MIT license.*
 
-&copy; 2016 **Molly Curtin &amp; Torrence Stratton**
+&copy; 2016 **Molly Curtin**
