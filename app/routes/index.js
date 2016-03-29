@@ -14,8 +14,8 @@ export default Ember.Route.extend({
     Object.keys(params).forEach(function(key){
       if(params[key]!==undefined){
         rental.set(key,params[key]);
-      };
-    })
+      }
+    });
     rental.save();
     this.transitionTo('index');
   },
