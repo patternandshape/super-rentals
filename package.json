@@ -1,7 +1,7 @@
 {
   "name": "super-rentals",
   "version": "0.0.0",
-  "description": "Small description for property-rental goes here",
+  "description": "Small description for super-rentals goes here",
   "private": true,
   "directories": {
     "doc": "doc",

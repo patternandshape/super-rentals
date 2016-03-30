@@ -8,7 +8,7 @@ March 29, 2016
 
 ## Installation
 
-* `git clone https://github.com/patternandshape/property-rental.git` this repository
+* `git clone https://github.com/patternandshape/super-rentals.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
