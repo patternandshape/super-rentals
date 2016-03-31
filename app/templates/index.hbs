@@ -1,4 +1,4 @@
-<h3> Welcome to Super Rentals </h3>
+<h1> Welcome to Super Rentals </h1>
 
 We hope you find exactly what you're looking for in a place to stay.
 
@@ -10,17 +10,13 @@ We hope you find exactly what you're looking for in a place to stay.
   {{/each}}
 </ul>
 
-{{new-rental save2="save3"}}
 
 <h2> Cities </h2>
 
 <ul>
   {{#each model.cities as |city|}}
-    <li>{{city.name}}, {{city.country}}</li>
+    <li>{{#link-to 'city' city.id}}{{city.name}}{{/link-to}}</li>
   {{/each}}
 </ul>
 
-{{new-city save2="save8"}}
-
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+{{new-city saveCity="saveCity"}}
