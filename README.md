@@ -2,7 +2,7 @@
 
 This is an application where property owners may list places for rent, and renters will be able to find places to stay.
 
-March 29, 2016
+April 3, 2016
 
 ##### By Molly Curtin
 
