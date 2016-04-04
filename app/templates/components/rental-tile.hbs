@@ -1,5 +1,4 @@
 <li>{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city.name}} {{/link-to}}
-  Cost per night: {{rental.cost}}
   {{#if isImageShowing}}
     <p><img src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}}></p>
   {{else}}

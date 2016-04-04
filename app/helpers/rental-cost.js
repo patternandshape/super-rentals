@@ -2,7 +2,6 @@ import Ember from 'ember';
 
 export function rentalCost(params) {
   var rentalPrice = params[0].get('cost');
-  //debugger;
   if (rentalPrice >= 150){
     return '$$$$';
   } else if (rentalPrice >= 100){
